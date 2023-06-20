@@ -1,21 +1,14 @@
 #include "main.h"
 
 /**
- * print _alphabet
- * using _putchar function
- * Return 0
- * by Fassal Farah
+ * print_alphabet - print all alphabet in lowercase
  */
+
 void print_alphabet(void)
-
 {
-	int i = 0;
-	char s[] = "abcdefghijklmnopqrstuvwxyz";
+	char letter;
 
-	while (s[i])
-	{
-		_putchar(s[i]);
-		i++;
-	}
+	for (letter = 'a'; letter <= 'z'; letter++) _putchar(letter);
+
 	_putchar('\n');
 }	
