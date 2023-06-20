@@ -1,10 +1,3 @@
-/*
- * File: 0-putchar.c
- * Auth: Fassal Farah
- *
- */
-
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -12,7 +5,6 @@
  *
  * return: Always 0.
  */
-
 int main(void)
 {
 	_putchar('_');
