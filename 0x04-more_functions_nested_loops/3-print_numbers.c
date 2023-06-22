@@ -6,10 +6,11 @@
  */
 
 void print_numbers(void)
-	char c;
-	for (c = '0'; c <= '9'; c++)
+	int i = 0;
+	while (i < 10)
 	{
-		_putchar(z);
+		_putchar(i + '0');
+		i++;
 	}
 	_putchar('\n');
 }
