@@ -6,8 +6,8 @@
  */
 
 void print_numbers(void)
-	char z;
-	for (z = '0'; z <= '9'; z++)
+	char c;
+	for (c = '0'; c <= '9'; c++)
 	{
 		_putchar(z);
 	}
