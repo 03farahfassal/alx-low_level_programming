@@ -11,6 +11,7 @@
 int _strcmp(char *string1, char *string2)
 {
 	int a;
+
 	a = 0;
 	while (string1[a] != '\0' && string2[a] != '\0')
 	{
