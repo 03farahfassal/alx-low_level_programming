@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - function that reverses the content of an array of integers.
- * n is the number of elements of the array
+ * @n: the number of elements of the array
  * @a: array
  *
  * Return: void
